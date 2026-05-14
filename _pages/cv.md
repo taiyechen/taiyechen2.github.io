@@ -5,8 +5,11 @@ permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
+  - /resume/
 ---
 
-You can download a PDF copy [here](/files/cv/T. Chen CV.pdf).
+{% assign cv_pdf = "/files/cv/taiye-chen-cv.pdf" | relative_url %}
 
-<iframe src="/files/cv/T. Chen CV.pdf" width="100%" height="1000px" style="border: none;"></iframe>
+You can download a PDF copy [here]({{ cv_pdf }}).
+
+<iframe src="{{ cv_pdf }}" width="100%" height="1000px" style="border: none;" title="Taiye Chen CV"></iframe>
